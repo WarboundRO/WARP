@@ -1,0 +1,179 @@
+from: "C:/Users/Albin/WARP/ragexe/2015-11-04aRagexe.exe"
+to: "C:/Users/Albin/WARP/ragexe/wro.exe"
+inputs:
+    $npcBoxLength:
+        data: '00100000'
+        display: 4096
+        type: 2
+    
+    $inpMultGRF:
+        data: ''
+        display: "Inputs/Sample_DATA.INI"
+        type: 10
+    
+    $viewIDLimit:
+        data: '00fa0000'
+        display: 64000
+        type: 2
+    
+    $expBarSpec:
+        data: ''
+        display: "Inputs/ExpSpec.yml"
+        type: 10
+    
+    $chatRoomBoxLen:
+        data: 'ea000000'
+        display: 234
+        type: 2
+    
+    $inpFlag:
+        data: ''
+        display: "Inputs/FlagSpec.yml"
+        type: 10
+    
+    $chatBoxLen:
+        data: 'ea000000'
+        display: 234
+        type: 2
+    
+    $vendingLimit:
+        data: 'ffffff7f'
+        display: 2147483647
+        type: 2
+    
+    $dataINI:
+        data: '444154412e494e4900'
+        display: "DATA.INI"
+        type: 10
+    
+    $translationFile:
+        data: ''
+        display: "Inputs/Translations_EN.yml"
+        type: 10
+    
+    $maxFriends:
+        data: '7f'
+        display: 127
+        type: 2
+    
+    $followDelay:
+        data: '64000000'
+        display: 100
+        type: 2
+    
+    $walkDelay:
+        data: '6400'
+        display: 100
+        type: 2
+    
+    $newHairLimits:
+        data: ''
+        display: 
+            - type: 2
+              value: 8
+            - type: 2
+              value: 29
+    
+    $pmBoxLen:
+        data: 'ea000000'
+        display: 234
+        type: 2
+    
+    $auraSpec:
+        data: ''
+        display: "Inputs/AuraSpec.yml"
+        type: 10
+    
+    $customWindowTitle:
+        data: '576172626f756e64205261676e61726f6b204f6e6c696e6500'
+        display: "Warbound Ragnarok Online"
+        type: 10
+    
+    $ssQuality:
+        data: '64'
+        display: 100
+        type: 2
+    
+    $newItemInfo:
+        data: '53797374656d2f6974656d696e666f2e6c756100'
+        display: "System/iteminfo.lua"
+        type: 10
+    
+patches:
+    - OfficialPal
+    - Allow65kHairs
+    - DecrAFDelay
+    - CustomAuraLimits
+    - CustomWalkDelay
+    - EnableWho
+    - EnableShowName
+    - ResizeChatBox
+    - ResizeChatRoomBox
+    - ResizePMBox
+    - ResizeNpcBox
+    - PreviewInShop
+    - MediumCamAngle
+    - RestoreLoginWindow
+    - EnableEotFonts
+    - FixFontsCharset
+    - AlwaysAscii
+    - CustomSSQuality
+    - CallKoreaClientInfo
+    - PlainTextDesc
+    - IncrViewID
+    - IncrMapQuality
+    - EnableEffectTool
+    - HideBuildInfo
+    - TranslateClient
+    - TranslateTaekwon
+    - NoGGuard
+    - MsgStrings
+    - QuestDisplay
+    - CustomItemInfoLub
+    - GRFsEmbedded
+    - NoFilenameCheck
+    - UseDefaultBrowser
+    - NoMultiWindow
+    - EnableSysMenu
+    - CustomWinTitle
+    - BorderlessFSW
+    - No1and1Arg
+    - IgnoreAccArg
+    - RestoreIcon
+    - Idle2NormalPriority
+    - Normal2HighPriority
+    - EnableDnsSupport
+    - SendMD5Hash
+    - NoNagle
+    - NoGNJoyLaunch
+    - SendClientFlags
+    - HidePacketsFromPEEK
+    - AutoMute
+    - TildeForMatk
+    - NoSwearFilter
+    - GuildBrackets
+    - FixChatAt
+    - NoHourly
+    - EnableFlagEmotes
+    - NoSerialDisplay
+    - AllowSpaceInGName
+    - DeleteCharWithEmail
+    - CustomVendingLimit
+    - NoHelpMsg
+    - IncrDigits
+    - FixAchieveCounters
+    - InsensitiveStorageSearch
+    - InsensitiveShopSearch
+    - OnlyFirstBG
+    - NoGravityAds
+    - NoGravityLogo
+    - IncrNewCharHairs
+    - NoDoramCreation
+    - CustomFriendsLimit
+    - CustomBarLimits
+    - DisConnToLogin
+    - CancelToLogin
+    - ShowReplayBtn
+    - ShowCancelBtn
+    - ShowRegisterBtn
+    - HideLicense
