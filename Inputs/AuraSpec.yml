@@ -51,7 +51,7 @@
     - [4210,4217]
     
   Maps:
-    - JobRange: [99, 255]
+    - JobRange: [99, 250]
       Index: 1
 
 - IDs: #Second set which uses 3 different indices for 3 seperate job level ranges
@@ -83,5 +83,5 @@
     - JobRange: [150, 159]
       Index: 2
     
-    - JobRange: [160, 255]
+    - JobRange: [160, 250]
       Index: 3

@@ -34,7 +34,7 @@
     - 4158
     - 4183
 
-  BaseLvl: 99
+  BaseLvl: 250
   JobLvl: 10
 
 - IDs: #First & Second Jobs
@@ -66,7 +66,7 @@
     - 4207
     - [4210, 4217]
   
-  BaseLvl: 99
+  BaseLvl: 250
   JobLvl: 50
 
 - IDs : #Transcendent Jobs
@@ -81,7 +81,7 @@
     - [4152, 4153]
     - 4157
   
-  BaseLvl: 99
+  BaseLvl: 250
   JobLvl: 70
 
 -
@@ -107,5 +107,5 @@
     - 4208
     - 4209
   
-  BaseLvl : 175
+  BaseLvl : 250
   JobLvl : 60
